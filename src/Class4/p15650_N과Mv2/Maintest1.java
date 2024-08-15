@@ -1,4 +1,4 @@
-package Class4.p15650;
+package Class4.p15650_N과Mv2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
