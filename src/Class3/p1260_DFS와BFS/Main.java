@@ -1,4 +1,4 @@
-package Class3.p1260;
+package Class3.p1260_DFS와BFS;
 import java.io.*;
 import java.util.*;
 
