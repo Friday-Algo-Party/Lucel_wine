@@ -1,4 +1,4 @@
-package Class3.p1463;
+package Class3.p1463_1로만들기;
 import java.io.*;
 
 public class Maintest {
