@@ -1,4 +1,4 @@
-package Class2.p1978_소수찾기;
+package Class2.p1978_소수찾아보기;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
