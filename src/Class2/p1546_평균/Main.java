@@ -1,4 +1,4 @@
-package Class2.p1546;
+package Class2.p1546_평균;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
