@@ -1,4 +1,4 @@
-package Class3.p11399_ATM;
+package Class3.p11399_ATM인출;
 import java.io.*;
 import java.util.*;
 
