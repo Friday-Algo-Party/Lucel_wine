@@ -1,4 +1,4 @@
-package Class2.p2839;
+package Class2.p2839_설탕배달;
 
 import java.io.*;
 import java.util.*;
