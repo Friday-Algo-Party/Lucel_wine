@@ -1,5 +1,4 @@
-package p1463;
-import java.util.*;
+package Class3.p1463;
 import java.io.*;
 
 public class Maintest {

@@ -1,4 +1,4 @@
-package p1260;
+package Class3.p1260;
 import java.io.*;
 import java.util.*;
 

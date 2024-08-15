@@ -1,4 +1,4 @@
-package p1546;
+package Class2.p1546;
 //
 //import java.util.*;
 //import java.io.*;

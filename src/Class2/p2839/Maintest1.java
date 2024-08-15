@@ -1,4 +1,4 @@
-package p2839;
+package Class2.p2839;
 
 import java.io.*;
 import java.util.*;

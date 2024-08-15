@@ -1,4 +1,4 @@
-package p1978;
+package Class2.p1978;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

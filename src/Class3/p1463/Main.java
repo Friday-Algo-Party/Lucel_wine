@@ -1,4 +1,4 @@
-package p1463;
+package Class3.p1463;
 
 import java.io.BufferedReader;
 import java.io.IOException;

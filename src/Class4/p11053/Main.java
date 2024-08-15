@@ -1,4 +1,4 @@
-package p11053;
+package Class4.p11053;
 
 import java.io.BufferedReader;
 import java.io.IOException;
