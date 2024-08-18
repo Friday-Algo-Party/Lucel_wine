@@ -34,7 +34,7 @@ public class Maintest1 {
                     System.out.println("NO");
                     return;
                 }
-                // 닫는 괄호가 나왔으므로 스택에서 제거
+                // 닫는 괄호가 나오면 제거
                 top--;
             }
         }
