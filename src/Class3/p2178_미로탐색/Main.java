@@ -27,7 +27,6 @@ public class Main {
 
         M = Integer.parseInt(st.nextToken());
 
-
         arr = new int[N][M];
 
         visit = new boolean[N][M];
@@ -41,10 +40,8 @@ public class Main {
             }
         }
 
-        // BFS를 통해 최단 경로 계산
         bfs();
 
-        // 도착점 (N-1, M-1)에서의 값을 출력
         System.out.println(arr[N-1][M-1]);
     }
 
