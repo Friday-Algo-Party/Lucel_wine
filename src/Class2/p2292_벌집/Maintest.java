@@ -3,25 +3,20 @@ package Class2.p2292_벌집;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Maintest {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int N = scn.nextInt();
+        int result =1;
+        for (int i = 1; i <N ; i++) {
 
-        int N = Integer.parseInt(br.readLine());
-        //2부터 6의 배수씩 증가함(6->12->18...)
-        int count = 1;
-        //1은 무조건 첫번째이므로 2부터 시작한다.
-        int range = 2;
-
-        if (N == 1) {
-            System.out.println(1);
-        } else {
-            while (range <= N) {
-                range = range + (count*6);
-                count++;
+            if(N <= 1 + 3 * i *(i-1)) {
+                result = i;
+                break;
             }
-            System.out.println(count);
         }
+        System.out.println(result);
     }
 }
