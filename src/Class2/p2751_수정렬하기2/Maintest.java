@@ -1,9 +1,8 @@
-package Class3.p2751_수정렬하기2;
+package Class2.p2751_수정렬하기2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 import java.util.Arrays;
 
 public class Maintest {
