@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//시간 오류로 인해 다시 만들어야 함
+//통과!
 public class Main {
 
     static int zero = 0;
@@ -31,15 +31,27 @@ public class Main {
         }
     }
 
-    public static int fibonacci(int n) {
+    public static void fibonacci(int n) {
         if (n == 0) {
             zero++;
-            return 0;
         } else if (n == 1) {
             one++;
-            return 1;
         } else {
-            return fibonacci(n - 1) + fibonacci(n - 2);
+            int[] fib_zero = new int[n + 1];
+            int[] fib_one = new int[n + 1];
+
+            fib_zero[0] = 1;
+            fib_one[0] = 0;
+            fib_zero[1] = 0;
+            fib_one[1] = 1;
+
+            for (int i = 2; i <= n; i++) {
+                fib_zero[i] = fib_zero[i - 1] + fib_zero[i - 2];
+                fib_one[i] = fib_one[i - 1] + fib_one[i - 2];
+            }
+
+            zero = fib_zero[n];
+            one = fib_one[n];
         }
     }
 }
