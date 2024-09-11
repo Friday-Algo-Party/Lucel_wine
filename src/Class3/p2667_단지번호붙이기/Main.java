@@ -63,6 +63,8 @@ public class Main {
     // BFS로 단지 크기 구하기
     public static int bfs(int x, int y) {
         Queue<int[]> queue = new LinkedList<>();
+
+        //위 코드는 길이가 2인 배열을 생성하고, 첫 번째 요소는 x, 두 번째 요소는 y로 초기화 한다는것
         queue.offer(new int[]{x, y});
         visited[x][y] = true;
 
